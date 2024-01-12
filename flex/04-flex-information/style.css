@@ -34,7 +34,7 @@ img {
 
 .plants {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 52px;
 }
 
@@ -42,12 +42,3 @@ img {
   max-width: 200px;
   text-align: center;
 }
-
-
-
-
-
-/*.plants {
-  justify-items: center;
-  max-width: 200px;
-}*/
