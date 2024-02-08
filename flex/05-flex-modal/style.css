@@ -10,12 +10,12 @@ body {
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -30,9 +30,8 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-shrink: 0;
+  padding-left: 10px;
 }
 
 .close-button {
@@ -66,4 +65,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* My code */
+/* Most work done on CodePen: https://codepen.io/dtrizzle/pen/vYPaJGg */
+.header {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  gap: 10px;
+  padding: 20px;
+}
+
+.text {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
